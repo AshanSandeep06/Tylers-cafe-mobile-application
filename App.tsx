@@ -124,11 +124,6 @@ function App(): React.JSX.Element {
                       //     contentStyle:{backgroundColor: "#3f2f25"} }} 
                   />
 
-                {/* <Stack.Screen name="MealsCategories" component={DrawerNavigator} options={{
-                                title: "Meals Categories",
-                                headerShown: false
-                }}/> */}
-
                 <Stack.Screen name="MealsOverview" component={MealsOverviewScreen} options={{title: "Meals Overview", headerShown: false }} />
                 <Stack.Screen name='MealDetails' component={MealDetailsScreen} options={{
                     title: "Meal Details",
